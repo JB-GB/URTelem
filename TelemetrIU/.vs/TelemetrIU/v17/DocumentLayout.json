@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GD\\JB URT\\URTelem\\TelemetrIU\\",
+  "WorkspaceRootPath": "C:\\URTProjects\\BDLOGGER\\TelemetrIU\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26C4F57C-94C0-4E21-A4B2-897AF19AB77A}|URTCarTelemetry\\URTCarTelemetry.csproj|c:\\gd\\jb urt\\urtelem\\telemetriu\\urtcartelemetry\\mainsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26C4F57C-94C0-4E21-A4B2-897AF19AB77A}|URTCarTelemetry\\URTCarTelemetry.csproj|solutionrelative:urtcartelemetry\\mainsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26C4F57C-94C0-4E21-A4B2-897AF19AB77A}|URTCarTelemetry\\URTCarTelemetry.csproj|C:\\URTProjects\\BDLOGGER\\TelemetrIU\\urtcartelemetry\\mainsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26C4F57C-94C0-4E21-A4B2-897AF19AB77A}|URTCarTelemetry\\URTCarTelemetry.csproj|solutionrelative:urtcartelemetry\\mainsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26C4F57C-94C0-4E21-A4B2-897AF19AB77A}|URTCarTelemetry\\URTCarTelemetry.csproj|c:\\gd\\jb urt\\urtelem\\telemetriu\\urtcartelemetry\\mainsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26C4F57C-94C0-4E21-A4B2-897AF19AB77A}|URTCarTelemetry\\URTCarTelemetry.csproj|solutionrelative:urtcartelemetry\\mainsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{26C4F57C-94C0-4E21-A4B2-897AF19AB77A}|URTCarTelemetry\\URTCarTelemetry.csproj|c:\\urtprojects\\bdlogger\\telemetriu\\urtcartelemetry\\mainsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C4F57C-94C0-4E21-A4B2-897AF19AB77A}|URTCarTelemetry\\URTCarTelemetry.csproj|solutionrelative:urtcartelemetry\\mainsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,28 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "mainSplashscreen.cs",
-              "DocumentMoniker": "C:\\GD\\JB URT\\URTelem\\TelemetrIU\\URTCarTelemetry\\mainSplashscreen.cs",
+              "DocumentMoniker": "C:\\URTProjects\\BDLOGGER\\TelemetrIU\\URTCarTelemetry\\mainSplashscreen.cs",
               "RelativeDocumentMoniker": "URTCarTelemetry\\mainSplashscreen.cs",
-              "ToolTip": "C:\\GD\\JB URT\\URTelem\\TelemetrIU\\URTCarTelemetry\\mainSplashscreen.cs",
+              "ToolTip": "C:\\URTProjects\\BDLOGGER\\TelemetrIU\\URTCarTelemetry\\mainSplashscreen.cs",
               "RelativeToolTip": "URTCarTelemetry\\mainSplashscreen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAvwC4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T20:09:00.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "mainSplashscreen.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\GD\\JB URT\\URTelem\\TelemetrIU\\URTCarTelemetry\\mainSplashscreen.cs",
+              "DocumentMoniker": "C:\\URTProjects\\BDLOGGER\\TelemetrIU\\URTCarTelemetry\\mainSplashscreen.cs",
               "RelativeDocumentMoniker": "URTCarTelemetry\\mainSplashscreen.cs",
-              "ToolTip": "C:\\GD\\JB URT\\URTelem\\TelemetrIU\\URTCarTelemetry\\mainSplashscreen.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\URTProjects\\BDLOGGER\\TelemetrIU\\URTCarTelemetry\\mainSplashscreen.cs [Dise\u00F1o]",
               "RelativeToolTip": "URTCarTelemetry\\mainSplashscreen.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T19:48:17.671Z",

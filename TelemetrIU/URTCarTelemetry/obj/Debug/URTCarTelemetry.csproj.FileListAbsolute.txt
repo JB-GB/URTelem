@@ -1,0 +1,10 @@
+C:\URTProjects\BDLOGGER\TelemetrIU\URTCarTelemetry\bin\Debug\URTCarTelemetry.exe.config
+C:\URTProjects\BDLOGGER\TelemetrIU\URTCarTelemetry\bin\Debug\URTCarTelemetry.exe
+C:\URTProjects\BDLOGGER\TelemetrIU\URTCarTelemetry\bin\Debug\URTCarTelemetry.pdb
+C:\URTProjects\BDLOGGER\TelemetrIU\URTCarTelemetry\obj\Debug\URTCarTelemetry.csproj.AssemblyReference.cache
+C:\URTProjects\BDLOGGER\TelemetrIU\URTCarTelemetry\obj\Debug\URTCarTelemetry.mainSplashscreen.resources
+C:\URTProjects\BDLOGGER\TelemetrIU\URTCarTelemetry\obj\Debug\URTCarTelemetry.Properties.Resources.resources
+C:\URTProjects\BDLOGGER\TelemetrIU\URTCarTelemetry\obj\Debug\URTCarTelemetry.csproj.GenerateResource.cache
+C:\URTProjects\BDLOGGER\TelemetrIU\URTCarTelemetry\obj\Debug\URTCarTelemetry.csproj.CoreCompileInputs.cache
+C:\URTProjects\BDLOGGER\TelemetrIU\URTCarTelemetry\obj\Debug\URTCarTelemetry.exe
+C:\URTProjects\BDLOGGER\TelemetrIU\URTCarTelemetry\obj\Debug\URTCarTelemetry.pdb

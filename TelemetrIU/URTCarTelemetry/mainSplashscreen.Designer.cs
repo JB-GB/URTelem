@@ -35,23 +35,27 @@
             this.btnUpdateSerialPorts = new System.Windows.Forms.Button();
             this.lblIndDB = new System.Windows.Forms.Label();
             this.btnStartDB = new System.Windows.Forms.Button();
+            this.tbxDBUser = new System.Windows.Forms.TextBox();
+            this.tbxDBPass = new System.Windows.Forms.TextBox();
+            this.chbxShowPass = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(187, 192);
+            this.btnStart.Location = new System.Drawing.Point(12, 160);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(75, 23);
+            this.btnStart.Size = new System.Drawing.Size(278, 23);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // cbxSerialPorts
             // 
             this.cbxSerialPorts.FormattingEnabled = true;
             this.cbxSerialPorts.Location = new System.Drawing.Point(89, 50);
             this.cbxSerialPorts.Name = "cbxSerialPorts";
-            this.cbxSerialPorts.Size = new System.Drawing.Size(121, 21);
+            this.cbxSerialPorts.Size = new System.Drawing.Size(125, 21);
             this.cbxSerialPorts.TabIndex = 1;
             // 
             // lblIndSerial
@@ -74,12 +78,13 @@
             // 
             // btnUpdateSerialPorts
             // 
-            this.btnUpdateSerialPorts.Location = new System.Drawing.Point(216, 50);
+            this.btnUpdateSerialPorts.Location = new System.Drawing.Point(220, 50);
             this.btnUpdateSerialPorts.Name = "btnUpdateSerialPorts";
-            this.btnUpdateSerialPorts.Size = new System.Drawing.Size(61, 21);
+            this.btnUpdateSerialPorts.Size = new System.Drawing.Size(70, 21);
             this.btnUpdateSerialPorts.TabIndex = 4;
             this.btnUpdateSerialPorts.Text = "Actualizar";
             this.btnUpdateSerialPorts.UseVisualStyleBackColor = true;
+            this.btnUpdateSerialPorts.Click += new System.EventHandler(this.btnUpdateSerialPorts_Click);
             // 
             // lblIndDB
             // 
@@ -92,18 +97,49 @@
             // 
             // btnStartDB
             // 
-            this.btnStartDB.Location = new System.Drawing.Point(246, 79);
+            this.btnStartDB.Location = new System.Drawing.Point(246, 106);
             this.btnStartDB.Name = "btnStartDB";
             this.btnStartDB.Size = new System.Drawing.Size(40, 23);
             this.btnStartDB.TabIndex = 6;
-            this.btnStartDB.Text = "Retry";
+            this.btnStartDB.Text = "DB";
             this.btnStartDB.UseVisualStyleBackColor = true;
+            this.btnStartDB.Click += new System.EventHandler(this.btnStartDB_Click);
+            // 
+            // tbxDBUser
+            // 
+            this.tbxDBUser.Location = new System.Drawing.Point(12, 108);
+            this.tbxDBUser.Name = "tbxDBUser";
+            this.tbxDBUser.Size = new System.Drawing.Size(228, 20);
+            this.tbxDBUser.TabIndex = 7;
+            this.tbxDBUser.Text = "Usuario";
+            // 
+            // tbxDBPass
+            // 
+            this.tbxDBPass.Location = new System.Drawing.Point(12, 134);
+            this.tbxDBPass.Name = "tbxDBPass";
+            this.tbxDBPass.Size = new System.Drawing.Size(253, 20);
+            this.tbxDBPass.TabIndex = 8;
+            this.tbxDBPass.Text = "Contrasena";
+            this.tbxDBPass.UseSystemPasswordChar = true;
+            // 
+            // chbxShowPass
+            // 
+            this.chbxShowPass.AutoSize = true;
+            this.chbxShowPass.Location = new System.Drawing.Point(271, 137);
+            this.chbxShowPass.Name = "chbxShowPass";
+            this.chbxShowPass.Size = new System.Drawing.Size(15, 14);
+            this.chbxShowPass.TabIndex = 10;
+            this.chbxShowPass.UseVisualStyleBackColor = true;
+            this.chbxShowPass.CheckedChanged += new System.EventHandler(this.chbxShowPass_CheckedChanged);
             // 
             // mainSplashscreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 361);
+            this.ClientSize = new System.Drawing.Size(302, 191);
+            this.Controls.Add(this.chbxShowPass);
+            this.Controls.Add(this.tbxDBPass);
+            this.Controls.Add(this.tbxDBUser);
             this.Controls.Add(this.btnStartDB);
             this.Controls.Add(this.lblIndDB);
             this.Controls.Add(this.btnUpdateSerialPorts);
@@ -111,6 +147,7 @@
             this.Controls.Add(this.lblIndSerial);
             this.Controls.Add(this.cbxSerialPorts);
             this.Controls.Add(this.btnStart);
+            this.MaximizeBox = false;
             this.Name = "mainSplashscreen";
             this.Text = "Initializer";
             this.ResumeLayout(false);
@@ -127,6 +164,9 @@
         private System.Windows.Forms.Button btnUpdateSerialPorts;
         private System.Windows.Forms.Label lblIndDB;
         private System.Windows.Forms.Button btnStartDB;
+        private System.Windows.Forms.TextBox tbxDBUser;
+        private System.Windows.Forms.TextBox tbxDBPass;
+        private System.Windows.Forms.CheckBox chbxShowPass;
     }
 }
 
